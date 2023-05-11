@@ -111,7 +111,7 @@ const CV = () => {
                 <h4>
                   Bincom Global Tech
                 </h4>
-                <h4> May 2021 - Present</h4>
+                <h4 className='leading-8 opacity-50'> May 2021 - Present</h4>
                 <p>
                   BIncom Dev Center Is a Multi-location based
                   Training and Development Center for
@@ -124,7 +124,7 @@ const CV = () => {
                 <div className='flex flex-col items-center'>
                   <h4 className='font-bold text-[18px] underline decoration-[#03989e] decoration-4'>EDUCATION</h4>
                   <h4>Bincom Academy(Front-End Mobile App Class)</h4>
-                  <p>May 2021 -Present</p>
+                  <p className='leading-8 opacity-50'>May 2021 -Present</p>
                 </div>
                 <div className='lg:flex flex-col lg:mx-[1.5rem] mx-[8%]  '>
                   <div className='m-2 p-2 rounded-2xl bg-[#03989e] text-[12px] text-white flex justify-center items-center self-start'>
@@ -146,7 +146,7 @@ const CV = () => {
                   <h4 className='text-[12px] '>
                     Deyo-Tuwo Comprehensive High School, Ododeyo-Imewuro
                   </h4>
-                  <p>2002</p>
+                  <p className='leading-8 opacity-50'>2002</p>
                 </div>
               </div>
             </div>
