@@ -2,6 +2,7 @@
 
 
 module.exports = {
+  important: true,
   purge: {
     content: [
       './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
