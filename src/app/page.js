@@ -1,12 +1,13 @@
 // import Image from 'next/image'
 
-import { CV, Portfolio } from "@/Components";
+import { CV, Gallery, Portfolio } from "@/Components";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between m-4">
       <CV />
       <Portfolio />
+      <Gallery />
     </main>
   )
 }

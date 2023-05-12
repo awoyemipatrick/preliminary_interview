@@ -2,16 +2,28 @@ import React from 'react'
 import Image from 'next/image'
 
 const images = [
-    '/images/image1.jpg',
-    '/images/image2.jpg',
-    '/images/image3.jpg',
-    '/images/image4.jpg'
-  ];
+    '/six.jpg',
+    '/four.jpg',
+    '/one.jpg',
+    '/two.jpg',
+    '/three.jpg',
+];
 
 const Gallery = () => {
-  return (
-    <div>Gallery</div>
-  )
+    return (
+        <main>
+            <div >
+                <h1 >Image Gallery</h1>
+                <div className='lg:flex flex-wrap justify-center align-center '>
+                    {images.map((imageUrl, i) => (
+                        <div className='m-8 ' key={i} >
+                            <Image src={imageUrl} alt={`Image ${i}`} width={400} height={350} />
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </main>
+    )
 }
 
 export default Gallery
