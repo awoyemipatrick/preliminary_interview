@@ -7,3 +7,14 @@ VERSION OF TOOLS USED.
 (3) react-icons: 4.8.0
 (4) tailwindcss: 3.3.2
 
+issues
+
+Tailwindcss not working with next.js
+
+Solutions
+
+Change global.css content to 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import './base.css';
+@import 'tailwindcss/utilities';
