@@ -53,15 +53,15 @@ const Portfolio = () => {
 
   return (
     <main className='mt-8'>
-      <div className='flex flex-col justify-center'>
-        <h1 className='self-center text-[24px] '>Portfolio</h1>
-        <div className='lg:flex flex-wrap justify-center align-center '>
+      <div className='flex flex-col justify-center' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', }}>
+        <h1 className='self-center text-[24px] ' style={{fontSize: '24px', alignSelf: 'center', }}>Portfolio</h1>
+        <div className='lg:flex flex-wrap justify-center align-center ' style={{display: 'flex', flexWrap: 'wrap',  alignItems: 'center', justifyContent: 'center', }}>
             {items.map((item, i) => (
-                <div className='m-4 bg-gray-500' key={i}>
+                <div className='m-4 bg-gray-500' key={i} style={{margin: '1rem', background: 'gray'}}>
                     <Image src={item.url} alt={item.title}  width={400} height={200} />
-                    <h2 className='my-4 text-black text-[1.2rem] font-bold ' > {item.title } </h2>
+                    <h2 className='my-4 text-black text-[1.2rem] font-bold ' style={{margin: '0 0.5rem', color: 'black',  fontSize: '1.2rem', fontWeight: 'bold', }} > {item.title } </h2>
                     {/* <p className='max-w-[75%] mb-4 ' > <span className='text-[#03989e] ' >Description:</span> {item.description}</p> */}
-                    <a className='bg-blue-600 px-4 py-2 rounded mt-[1rem] ' href={item.link} >View page</a>
+                    <a className='bg-blue-600 px-4 py-2 rounded mt-[1rem] ' style={{background: '#3768ee', padding: '5px 7px',  borderRadius: '5px', marginTop: '1rem', }} href={item.link} >View page</a>
                     
                 </div>
             )) }
