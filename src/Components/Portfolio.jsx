@@ -52,7 +52,7 @@ const Portfolio = () => {
 
 
   return (
-    <main className='mt-8'>
+    <main className='mt-8' style={{marginTop: '0.5rem' }} >
       <div className='flex flex-col justify-center' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', }}>
         <h1 className='self-center text-[24px] ' style={{fontSize: '24px', alignSelf: 'center', }}>Portfolio</h1>
         <div className='lg:flex flex-wrap justify-center align-center ' style={{display: 'flex', flexWrap: 'wrap',  alignItems: 'center', justifyContent: 'center', }}>
