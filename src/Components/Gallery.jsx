@@ -11,9 +11,9 @@ const images = [
 
 const Gallery = () => {
     return (
-        <main>
-            <div >
-                <h1 >Image Gallery</h1>
+        <main className='mt-[4rem] '>
+            <div className='flex flex-col justify-center'>
+                <h1 className='self-center font-bold text-[34px] '>Image Gallery</h1>
                 <div className='lg:flex flex-wrap justify-center align-center '>
                     {images.map((imageUrl, i) => (
                         <div className='m-8 ' key={i} >
