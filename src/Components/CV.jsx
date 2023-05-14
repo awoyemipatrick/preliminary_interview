@@ -6,25 +6,25 @@ const CV = () => {
 
   return (
     <main className='flex flex-col items-center cv__main'
-      // style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', }} 
-      >
+    // style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', }} 
+    >
       <h1 className='text-[24px] font-bold my-8 cv__h1 ' style={{ fontSize: '24px', fontWeight: 'bold', margin: '0.5rem 0', }} >My CV </h1>
       <div className='flex flex-col items-center mx-[20%] text-black bg-white my-[2rem] cv__wrapper '
-        // style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: 'black', background: 'white', margin: '0 20%', }}
-        >
+      // style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: 'black', background: 'white', margin: '0 20%', }}
+      >
         <div className='flex flex-col items-center cv_header '
-          // style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} 
-          >
+        // style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} 
+        >
           <h1 className='lg:text-[40px] text-[1.5rem] font-bold mt-[1rem] cv_header-h1'
           // style={{ fontSize: '1.5rem', fontWeight: 'bold', marginTop: '16px' }} 
           >Awoyemi Patrick Gbenga</h1>
           <p className='text-[1.3rem] opacity-50 mt-[1rem] cv_header-p'> Front-End Engineer</p>
         </div>
         <div>
-          <div className=' justify-center text-center lg:flex px-[1rem] vc__contacts ' 
+          <div className=' justify-center text-center lg:flex px-[1rem] vc__contacts '
           // style={{ display: 'flex', justifyContent: 'column', flexDirection: 'column', padding: '1rem', alignItems: 'center' }} 
           >
-          
+
             <a className='my-8 mx-4 p-2 bg-[#03989e] text-white rounded-2xl flex justify-center items-center  vc__contacts-a  ' href=""> <span className='vc__contacts-a_span text-white mx-2 bg-black p-[0.3em] rounded-2xl text-[1.2rem] ' ><MdPhone /> </span> 0-816-118-5089</a>
             <a className='my-8 mx-4 p-2 bg-[#03989e] text-white rounded-2xl flex justify-center items-center vc__contacts-a' href=""> <span className='vc__contacts-a_span text-black mx-2 text-[2rem] ' ><MdEmail /></span> awoyemipatrick33@yahoo.com</a>
           </div>
@@ -115,10 +115,12 @@ const CV = () => {
 
           <div className=' flex-col lg:mx-[2rem] mx-4 mt-[4rem] cv_edu-wrapper'>
 
-            <div className='lg:flex mx-4 cv_edu-main '>
-
-              <div className=' lg:w-[50%] mb-[2rem] cv_edu-main-t-d '>
-                <h2 className='font-bold text-[18px] underline decoration-[#03989e] decoration-4 cv_edu-main-t-d-h2'>TRAINING & DEVELOPMENT</h2>
+            <div className='lg:flex mx-4 cv__qualification '>
+              <div className=' lg:w-[50%] mb-[2rem] cv__qualification-training '>
+                <h2 className='font-bold text-[18px] underline decoration-[#03989e] decoration-4 
+                cv__qualification-h2
+                '>
+                  TRAINING & DEVELOPMENT</h2>
                 <h4>
                   Bincom Global Tech
                 </h4>
@@ -131,22 +133,34 @@ const CV = () => {
                 </p>
               </div>
 
-              <div className='flex flex-col lg:w-[50%] cv_edu-main-ed ' style={{ display: 'flex', flexDirection: 'column', width: '50%' }} >
-                <div className='flex flex-col items-center cv_edu-main-ed-header' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                  <h4 className='font-bold text-[18px] underline decoration-[#03989e]' style={{ fontWeight: 'bold' }}>EDUCATION</h4>
-                  <h4>Bincom Academy(Front-End Mobile App Class)</h4>
+              <div className='flex flex-col lg:w-[50%] cv__qualification-edu '>
+                <div className='flex flex-col items-center cv_edu-main-ed-header'>
+                  <h2 className='font-bold text-[18px] underline decoration-[#03989e] cv_edu-main-t-d-h2 
+                  cv__qualification-2'>EDUCATION</h2>
+                  <div className='cv__qualification-edu-header'>
+                    <h4 >Bincom Academy</h4>
+                    <h4>(Front-End Mobile App Class)</h4>
+                  </div>
                   <p className='leading-8 opacity-50 cv_experience-wrapper-main-wrap-p'>May 2021 -Present</p>
                 </div>
-                <div className='lg:flex flex-col lg:mx-[1.5rem] mx-[8%] cv_edu-main_header-ed-class '>
-                  <div className='m-2 p-2 rounded-2xl bg-[#03989e] text-[12px] text-white flex justify-center items-center self-start cv_edu-main_header-ed-class-start'>
+                <div className='lg:flex flex-col lg:mx-[1.5rem] mx-[8%] 
+                 cv__qualification-class'>
+                  <div
+                    className='m-2 p-2 rounded-2xl bg-[#03989e] text-[12px] text-white flex justify-center items-center self-start 
+                    cv__qualification-class-start
+                  '>
                     <p className=''>
                       Mobile Beginners Class
                     </p>
                   </div>
-                  <p className='m-2 p-2 rounded-2xl bg-[#03989e] text-[12px] text-white flex justify-center items-center self-end cv_edu-main_header-ed-class-end'>
+                  <p className='m-2 p-2 rounded-2xl bg-[#03989e] text-[12px] text-white flex justify-center items-center self-end 
+                  cv__qualification-class-end
+                  '>
                     Mobile Intermediate Class
                   </p>
-                  <p className='m-2 p-2 rounded-2xl bg-[#03989e] text-[12px] text-white flex justify-center items-center self-start cv_edu-main_header-ed-class-start'>
+                  <p className='m-2 p-2 rounded-2xl bg-[#03989e] text-[12px] text-white flex justify-center items-center 
+                  self-start cv__qualification-class-start
+                  '>
                     Advanced Front-End Class
                   </p>
                 </div>

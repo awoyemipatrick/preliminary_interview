@@ -13,8 +13,4 @@ Tailwindcss not working with next.js
 
 Solutions
 
-Change global.css content to 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import './base.css';
-@import 'tailwindcss/utilities';
+Used CSS 3
