@@ -164,33 +164,33 @@ const CV = () => {
                     Advanced Front-End Class
                   </p>
                 </div>
-                <div className='flex flex-col items-center my-4'>
-                  <h3 className='font-bold '>
+                <div className='flex flex-col items-center my-4 cv__cert-container'>
+                  <h3 className='font-bold cv__cert'>
                     Secondary School certificate
                   </h3>
-                  <h4 className='text-[12px] '>
+                  <h4 className='text-[12px] cv__cert-sch'>
                     Deyo-Tuwo Comprehensive High School, Ododeyo-Imewuro
                   </h4>
-                  <p className='leading-8 opacity-50'>2002</p>
+                  <p className='leading-8 opacity-50 cv__cert-yr'>2002</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className='items-center flex flex-col mx-[8%] my-6 '>
-            <h2 className='font-bold text-[18px] underline decoration-[#03989e] decoration-4'>SOFT/TECHNICAL SKILLS</h2>
-            <div className='lg:flex justify-around flex-wrap  '>
-              <p className='m-2 p-2  rounded-2xl bg-[#03989e] text-white text-[12px] flex justify-center items-center ' > Version Control Systems: Git, GitLab, GitHub </p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '> HTML</p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '>Javscript</p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '>CSS</p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '>Responsive Web Design</p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '>Technical Documentation</p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '>Team Collaboration</p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '>Content Creation Tools</p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '>Analytical & Problem solving</p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '>Critical-Thinking</p>
-              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center '>ReactJS</p>
+          <div className='items-center flex flex-col mx-[8%] my-6 cv__skills '>
+            <h2 className='font-bold text-[18px] underline decoration-[#03989e] decoration-4 cv__skills-h2'>SOFT/TECHNICAL SKILLS</h2>
+            <div className='lg:flex justify-around flex-wrap cv__skills-container '>
+              <p className='m-2 p-2  rounded-2xl bg-[#03989e] text-white text-[12px] flex justify-center items-center cv__skill ' > Version Control Systems: Git, GitLab, GitHub </p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'> HTML</p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'>Javscript</p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'>CSS</p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'>Responsive Web Design</p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'>Technical Documentation</p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'>Team Collaboration</p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'>Content Creation Tools</p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'>Analytical & Problem solving</p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'>Critical-Thinking</p>
+              <p className='m-2 p-2 bg-[#03989e] text-white rounded-2xl text-[12px] flex justify-center items-center cv__skill'>ReactJS</p>
             </div>
           </div>
 

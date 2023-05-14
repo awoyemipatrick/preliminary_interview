@@ -88,7 +88,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 8px 8%;
+  margin: 8px 2px;
   padding: 2px 5px;
   background: #03989e;
   color: white;
@@ -137,7 +137,7 @@ body {
 
 /* mx-[2rem] lg:max-w-[40%] mb-8 */
 .cv_experience-wrapper-main-wrap {
- margin: 1rem 1.5rem;
+  margin: 1rem 1.5rem;
 }
 
 /* font-bold */
@@ -204,7 +204,7 @@ body {
   align-items: center;
 }
 
-.cv__qualification-training { 
+.cv__qualification-training {
   margin: 1rem 1.5rem;
 }
 
@@ -271,6 +271,69 @@ body {
   align-self: center;
 }
 
+/* items-center flex flex-col mx-[8%] my-6 */
+.cv__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 4%;
+}
+
+/* font-bold text-[18px] underline decoration-[#03989e] decoration-4  */
+.cv__skills-h2 {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-color: #03989e;
+  text-decoration-thickness: 5px;
+}
+
+/* lg:flex justify-around flex-wrap */
+.cv__skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* m-2 p-2  rounded-2xl bg-[#03989e] text-white text-[12px] flex justify-center items-center */
+.cv__skill {
+  display: flex;
+  color: white;
+  font-size: 12px;
+  background: #03989e;
+  border-radius: 15px;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+/* flex flex-col items-center my-4 */
+.cv__cert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* font-bold */
+.cv__cert {
+  font-weight: bold;
+
+}
+
+/* text-[12px] */
+.cv__cert-sch {
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+/* leading-8 opacity-50 */
+.cv__cert-yr {
+  opacity: 0.5;
+  margin-top: 0.5rem;
+}
+
+
+/* Responsive */
 
 @media only screen and (min-width: 1024px) {
   .cv_header-h1 {
@@ -379,4 +442,19 @@ body {
     font-size: 12px;
     color: white;
   }
+
+  /* lg:flex justify-around flex-wrap */
+  .cv__skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .cv__skill {
+   
+    font-size: 16px;
+    
+  }
+
 }
